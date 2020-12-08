@@ -1,0 +1,77 @@
+.success {
+    text-align: center;
+    position: relative;
+    top: -3px;
+}
+
+.success-icon {
+    color: $green;
+    font-size: 100px;
+}
+
+.done {
+    text-align: center;
+    color: $green;
+    top: -3px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.statistics {
+    background-color: $off-white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.score {
+    color: $blue;
+    text-align: center;
+}
+
+.remark {
+    text-align: center;
+}
+
+.stat {
+    padding-left: 20px;
+    
+}
+
+.stats {
+    float: right;
+    padding-right: 20px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 32%;
+}
+
+.home {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: $blue;
+}
+
+.home:hover {
+    background-color: darken($blue, 10%);
+    color: $white;
+}
+
+.again {
+    margin-left: 120px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: $green;
+}
+.again:hover {
+    background-color: darken($green, 10%);
+    color: $white;
+}
+
+.page {
+    color: $off-white;
+}
